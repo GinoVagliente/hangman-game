@@ -19,10 +19,8 @@ function Game() {
         <Stage />
       </div>
 
-      <div className="absolute bottom-0 left-1/2 w-full h-4/12 md:w-1/2 lg:w-1/2 -translate-x-1/2">
-      
-        <div className="absolute inset-0 rounded-xl opacity-60 pointer-events-none bg-[url('/keyboardBackground.png')] bg-contain bg-no-repeat bg-center"/>
-
+      <div className="absolute bottom-0 left-1/2 w-full h-5/12 md:w-1/2 lg:w-1/2 -translate-x-1/2 rounded-xl overflow-hidden">
+        <div className="absolute inset-0 opacity-60 pointer-events-none bg-[url('/keyboardBackground.png')] bg-cover bg-center" />
         <Keyboard />
       </div>
     </div >
