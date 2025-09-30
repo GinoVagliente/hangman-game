@@ -16,7 +16,7 @@ const WordPanel = () => {
 
     return (
         <div>
-            <p className="text-black md:text-4xl text-2xl" style={{ fontFamily: "'Press Start 2P', cursive" }}>
+            <p className="text-black text-2xl" style={{ fontFamily: "'Press Start 2P', cursive" }}>
             {word}
         </p>
         </div>
