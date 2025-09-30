@@ -7,14 +7,14 @@ const HomeModal = () => {
         />
 
         <p
-          className="text-lg font-bold text-gray-800 text-center relative z-10"
+          className="text-sm font-bold text-gray-800 text-center relative z-10"
           style={{ fontFamily: "'Press Start 2P'" }}
         >
           HANGMAN GAME
         </p>
         <a
           href="/play"
-          className="px-4 py-2 md:px-6 md:py-4 text-white rounded-lg hover:bg-gray-100/10 transition-all backdrop-blur-sm text-center relative z-10"
+          className="text-sm px-4 py-2 md:px-6 md:py-4 text-white rounded-lg hover:bg-gray-100/10 transition-all backdrop-blur-sm text-center relative z-10"
           style={{ fontFamily: "'Press Start 2P'" }}
         >
           Start

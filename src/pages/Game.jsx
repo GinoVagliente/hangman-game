@@ -11,8 +11,11 @@ function Game() {
   return (
     <div className="h-screen w-full flex flex-col bg-blue-400 relative overflow-hidden">
 
-      <div className="flex justify-center p-5 bg-black/30 bg-[url('/cloudsBackground.png')] bg-center bg-[length:10%]">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2">
         <WordPanel />
+      </div>
+
+      <div className="flex justify-center p-5 bg-black/30 bg-[url('/cloudsBackground.png')] bg-center bg-[length:10%]">
         <GameOverModal />
       </div>
       <div className="flex flex-col md:flex-row w-full justify-center relative flex-1">
