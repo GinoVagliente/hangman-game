@@ -4,7 +4,7 @@ const SocialIcons = ({ className = "" }) => {
   return (
     <div className={`flex space-x-4 text-black-100 text-2xl ${className}`}>
       <a
-        href="https://github.com/tuusuario"
+        href="https://github.com/GinoVagliente"
         target="_blank"
         rel="noopener noreferrer"
         className="transform transition duration-300 hover:scale-125 hover:text-gray-200"
@@ -12,7 +12,7 @@ const SocialIcons = ({ className = "" }) => {
         <FaGithub />
       </a>
       <a
-        href="https://www.linkedin.com/in/tuusuario"
+        href="https://www.linkedin.com/in/gino-vagliente-734568337/"
         target="_blank"
         rel="noopener noreferrer"
         className="transform transition duration-300 hover:scale-125 hover:text-gray-200"
@@ -20,7 +20,7 @@ const SocialIcons = ({ className = "" }) => {
         <FaLinkedin />
       </a>
       <a
-        href="/portfolio"
+        href="https://gino-vagliente-portfolio.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         className="transform transition duration-300 hover:scale-125 hover:text-gray-200"
