@@ -10,7 +10,7 @@ function Game() {
 
   return (
     <div className="h-screen w-full flex flex-col bg-blue-400 relative overflow-hidden">
-      <div className="absolute top-2 right-5 flex space-x-4 z-60 text-white text-2xl">
+      <div className="absolute top-2 right-5 flex space-x-4 z-60  text-2xl">
         <SocialIcons />
       </div>
 
